@@ -1,0 +1,50 @@
+* {
+	font-family: arial;
+	box-sizing: border-box;
+}
+
+button {
+	padding: 10px 10px;
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #38af8a;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #268869;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th,
+table td {
+	text-align: left;
+	border: 1px solid #000;
+	padding: 10px 20px;
+}
+
+table td:last-child {
+	text-align: right;
+}
+
+.add-table td {}
+.add-table input {
+	width: 100%;
+	padding: 10px 20px;
+	border: none;
+}
+.add-table td:last-child {
+	padding: 10px 20px;
+}
+.add-table td button {
+	width: 100%;
+}
